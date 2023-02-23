@@ -1,3 +1,10 @@
+<! DOCSTYLE html>
+<html>
+<head>
+<title> Justice Calderon's PHP Permutation function </title>
+</head>
+<body>
+<?php
 // Function that returns all nested array values in a single array 
 function return_nested_values($input_array, $output_array=array()){
         if (gettype($input_array[0]) != "array"){
@@ -43,3 +50,6 @@ function return_nested_values($input_array, $output_array=array()){
           return $result_list;
         }
     }
+?>
+        </body>
+</html>
